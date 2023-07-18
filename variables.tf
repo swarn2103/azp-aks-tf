@@ -19,7 +19,7 @@ variable "cluster_name" {
 variable "dns_prefix" {
   description = "DNS prefix for the AKS cluster"
   type        = string
-  default = "myTF1_AKS"
+  default = "mytf1-aks"
 }
 
 variable "node_count" {
